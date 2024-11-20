@@ -23,5 +23,8 @@ This brand book serves as a fresh, digital companion to [Southwest's official gu
 ## 💫 Goal
 To create a more accessible, engaging way to explore Southwest's brand identity while maintaining their core values and visual standards.
 
+## 👩🏼‍💻 Presentation 
+To see my 4 minute presentation of this project (for my branding class), click [here](https://www.loom.com/share/06eea576616e442c9196212f5cadf8b6?sid=88d0c27e-0967-4a83-b893-ae7411115b1c)
+
 ---
 Made with 💙❤️💛 by Ava 
