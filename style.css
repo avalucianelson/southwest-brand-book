@@ -27,7 +27,7 @@
 		height:100%;
 		width:100%;
 		color:#5E7B95; /* Deep Silver */
-		background-color:#004B87; /* Bold Blue */
+		background-color:#304CB2; /* Updated Bold Blue */
 		user-select: none; /* supported by Chrome and Opera */
 		-webkit-user-select: none; /* Safari */
 		-khtml-user-select: none; /* Konqueror HTML */
@@ -548,7 +548,7 @@
 		
 	h1, h2, h3, h4, h5, h6 {		
 		font-family: 'Southwest Sans', sans-serif;
-		font-weight: 700; /* Bold for headlines */
+		font-weight: bold; /* Bold for headlines */
 		text-transform: none; /* Sentence case */
 		color: #5E7B95; /* Deep Silver */
 		margin-bottom:20px;
@@ -3911,8 +3911,30 @@
 
 @font-face {
     font-family: 'Southwest Sans';
-    src: url('fonts/SouthwestSans-Medium.woff2') format('woff2'),
-         url('fonts/SouthwestSans-Bold.woff2') format('woff');
+    src: url('webfonts/Southwest Sans Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Southwest Sans';
+    src: url('webfonts/Southwest Sans Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.styled-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: disc; /* Use disc bullets */
+    margin: 20px 0; /* Add margin to the list */
+    padding-left: 20px; /* Indent the list */
+    text-align: left; /* Ensure the list is left-aligned */
+}
+
+.styled-list li {
+    width: 50%; /* Each item takes up half the width */
+    margin-bottom: 10px; /* Space out list items */
+    line-height: 1.6; /* Improve readability */
+    color: #444; /* Ensure text color is consistent */
 }
